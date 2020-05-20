@@ -44,42 +44,67 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="box income">
-                <h1 class="source">Salary</h1>
-                <h4 class="amount"><span>Amount :</span> 34999</h4>
-                <p>Note:</p>
-                <div class="note">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique fuga ratione sed fugiat tempore quia quae.
-                </div>
-                <p class="badge">Income</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="sort-btn row">
+            <button id="byAcending">Sort this by Acending</button>
+            <button id="byDcending">Sort this by Dcending</button>
+          </div>
+          <div class="sort-btn row">
+            <button id="incomeModel">Add Income</button>
+            <button id="expenseModel">Add Expense</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <div class="box income">
+              <h1 class="source">Salary</h1>
+              <h4 class="amount"><span>Amount :</span> 34999</h4>
+              <p>Note:</p>
+              <div class="note">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Similique fuga ratione sed fugiat tempore quia quae.
               </div>
-            </div>
-            <div class="col-md-2">
-              <div class="box expense">
-                <h1 class="source">Salary</h1>
-                <h4 class="amount"><span>Amount :</span> 34999</h4>
-                <p>Note:</p>
-                <div class="note">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique fuga ratione sed fugiat tempore quia quae.
-                </div>
-                <p class="badge">Income</p>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="box"></div>
-            </div>
-            <div class="col-md-2">
-              <div class="box"></div>
-            </div>
-            <div class="col-md-2">
-              <div class="box"></div>
+              <p class="badge">Income</p>
             </div>
           </div>
+          <div class="col-md-2">
+            <div class="box expense">
+              <h1 class="source">Salary</h1>
+              <h4 class="amount"><span>Amount :</span> 34999</h4>
+              <p>Note:</p>
+              <div class="note">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Similique fuga ratione sed fugiat tempore quia quae.
+              </div>
+              <p class="badge">Income</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="box"></div>
+          </div>
+          <div class="col-md-2">
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container form-container">
+        <div class="form">
+          <input type="text" placeholder="Enter the source of Income/Expense" />
+          <input type="text" placeholder="Amount Earned/Spend" />
+          <textarea
+            id="note"
+            cols="30"
+            rows="10"
+            placeholder="Enter short note about Income or Expense for future refrence."
+          ></textarea>
+          <button id="addIncome">Add Income</button>
+          <button id="addExpense">Add Expense</button>
         </div>
       </div>
     </main>

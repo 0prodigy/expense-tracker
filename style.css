@@ -7,13 +7,23 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body {
+  background: linear-gradient(
+    to right bottom,
+    #051937,
+    #444964,
+    #808195,
+    #bfbec8,
+    #ffffff
+  );
+}
 .top-container {
   padding: 20px;
   background-color: #f8f9fe;
 }
 .row {
   display: flex;
-  padding: 20px 80px 80px;
+  padding: 20px 40px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -105,4 +115,45 @@ body {
 }
 .box.expense > .badge {
   background-color: rgb(199, 25, 25);
+}
+.sort-btn {
+  justify-content: start;
+}
+.sort-btn button {
+  margin-right: 20px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(70, 70, 182);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+.form * {
+  display: block;
+  width: 100%;
+  padding: 10px 25px;
+}
+.form-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  height: 100vh;
+  display: none;
+  background: linear-gradient(
+    to right bottom,
+    #051937,
+    #444964,
+    #808195,
+    #bfbec8,
+    #ffffff
+  );
+}
+.show {
+  display: block;
 }
