@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.top-container {
+  padding: 20px;
+  background-color: #f8f9fe;
+}
+.row {
+  display: flex;
+  padding: 20px 80px 80px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.col-md-4 {
+  padding: 0px 10px;
+  flex: 33.33%;
+  max-width: 33.33%;
+}
+.card {
+  padding: 20px 20px;
+  margin: 0 auto;
+  max-width: 300px;
+  border-radius: 10px;
+  background-color: thistle;
+  display: flex;
+}
+.card > .icon {
+  text-align: center;
+  padding: 20px 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.card1 {
+  background-color: #f1c317;
+}
+.card1 .icon {
+  color: #f1c317;
+}
+.card2 {
+  background-color: #355ed8;
+}
+.card2 .icon {
+  color: #355ed8;
+}
+.card3 {
+  background-color: #00c4dc;
+}
+.card3 .icon {
+  color: #00c4dc;
+}
+.icon + .content {
+  color: #fff;
+  padding: 0px 20px;
+}
