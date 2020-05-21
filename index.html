@@ -57,7 +57,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="row">
           <div class="col-md-2">
             <div class="box income">
               <h1 class="source">Salary</h1>
@@ -94,9 +94,14 @@
         </div>
       </div>
       <div class="container form-container">
+        <div id="close"></div>
         <div class="form">
-          <input type="text" placeholder="Enter the source of Income/Expense" />
-          <input type="text" placeholder="Amount Earned/Spend" />
+          <input
+            type="text"
+            placeholder="Enter the source of Income/Expense"
+            id="source"
+          />
+          <input type="text" placeholder="Amount Earned/Spend" id="amount" />
           <textarea
             id="note"
             cols="30"
@@ -108,5 +113,6 @@
         </div>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>

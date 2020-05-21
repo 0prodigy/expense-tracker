@@ -157,3 +157,24 @@ body {
 .show {
   display: block;
 }
+#close {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(22, 22, 22);
+  float: right;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+#row {
+  justify-content: start;
+}
+.alert {
+  padding: 10px;
+  background-color: red;
+  text-align: center;
+  color: #fff;
+  margin: 5px auto;
+  width: 400px;
+}
